@@ -228,9 +228,45 @@ streamlit run app.py
 
 ---
 
-# 📷 Dashboard
+# 📷 Dashboard Screenshots
 
-Add screenshots of your dashboard inside the **images/** folder and reference them here after deployment.
+## 🏠 Dashboard Overview
+
+The Streamlit dashboard provides an interactive overview of Telangana Fair Price Shop (FPS) performance with filters, KPI cards, charts, and geospatial visualization.
+
+![Dashboard](images/dashboard.png)
+
+---
+
+## 📊 Shop Distribution by Cluster
+
+Fair Price Shops are grouped into behavioral clusters using the K-Means clustering algorithm, helping identify high-performing, medium-performing, and low-performing shops.
+
+![Shop Distribution](images/shop_distribution_by_cluster.png)
+
+---
+
+## ⭐ PCA Cluster Visualization
+
+Principal Component Analysis (PCA) reduces the dimensionality of the dataset and visualizes cluster separation in a two-dimensional space.
+
+![PCA Visualization](images/pca_cluster_visualization.png)
+
+---
+
+## 🚨 DBSCAN Outlier Detection
+
+DBSCAN identifies anomalous Fair Price Shops that exhibit unusual transaction behavior and do not belong to any major cluster.
+
+![DBSCAN](images/dbscan_outlier_detection.png)
+
+---
+
+## 🌾 Commodity Distribution
+
+This chart illustrates the distribution of essential commodities across Fair Price Shops, providing insights into commodity allocation and utilization patterns.
+
+![Commodity Distribution](images/commodity_distribution.png)
 
 ---
 
